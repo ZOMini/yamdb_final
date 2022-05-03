@@ -13,7 +13,7 @@ COPY . /app
 
 # WORKDIR /app
 
-CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ] 
+CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0.0.0.0:8000" ] 
 
 # ENV DATABASE_NAME yamdb
 # ENV DATABASE_PORT 5432
