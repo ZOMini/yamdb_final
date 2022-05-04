@@ -42,7 +42,7 @@ jobs:
           with:
             push: true
             #оч. долго не мог понять почему не пушит.
-            context: ./api_yamdb/
+            # context: ./api_yamdb/
             tags: zomin/api_yamdb:latest
   deploy:
     runs-on: ubuntu-latest
