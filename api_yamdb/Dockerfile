@@ -2,7 +2,7 @@ FROM python:3.7-slim
 
 # RUN mkdir /app
 
-WORKDIR /api_yamdb
+WORKDIR /app
 # Не уверен что правильно понял, но да - это работает.)
 
 COPY requirements.txt .
